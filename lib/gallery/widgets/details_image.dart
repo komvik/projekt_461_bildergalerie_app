@@ -13,7 +13,7 @@ class DetailsImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: 400,
-      height: 500,
+      height: 450,
       child: Image.asset(galleryItem.imagePath, fit: BoxFit.cover),
     );
   }

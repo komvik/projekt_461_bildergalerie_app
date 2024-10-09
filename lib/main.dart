@@ -44,7 +44,7 @@ class _AppGalleryState extends State<AppGallery> {
           },
           destinations: const [
             NavigationDestination(
-                icon: Icon(Icons.picture_in_picture_alt), label: "Pictures"),
+                icon: Icon(Icons.photo_library_outlined), label: "Pictures"),
             NavigationDestination(
                 icon: Icon(Icons.favorite), label: "Favorite"),
             NavigationDestination(icon: Icon(Icons.person), label: "Profile"),

@@ -16,9 +16,29 @@ class DetailsText extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            galleryItem.imageTitle,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          Row(
+            children: [
+              Text(
+                galleryItem.imageTitle,
+                style:
+                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(width: 50),
+//
+              ElevatedButton(
+                onPressed: () {
+                  //favoritesRepository.addFavorite(destination);
+                  Navigator.of(context).pop();
+                },
+                style:
+                    ElevatedButton.styleFrom(backgroundColor: Colors.teal[600]),
+                child: const Text(
+                  'Add to favorites',
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+//
+            ],
           ),
           Text(galleryItem.imageDate),
           SizedBox(
