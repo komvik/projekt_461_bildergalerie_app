@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:projekt_461_bildergalerie_app/favorite/widhets/favorite_pictures_widget.dart';
-import 'package:projekt_461_bildergalerie_app/gallery/widgets/pictures_widget.dart';
-import 'package:projekt_461_bildergalerie_app/profil/widgets/profile_widget.dart';
-import 'package:projekt_461_bildergalerie_app/settimgs/widgets/settings_widget.dart';
+import 'package:projekt_461_bildergalerie_app/favorite/favorite_pictures_widget.dart';
+import 'package:projekt_461_bildergalerie_app/gallery/screens/pictures_widget.dart';
+import 'package:projekt_461_bildergalerie_app/profil/screens/profile_widget.dart';
+import 'package:projekt_461_bildergalerie_app/settimgs/settings_widget.dart';
 
 void main() {
   runApp(const AppGallery());
